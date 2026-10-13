@@ -13,12 +13,12 @@
 <PopoverContent>
   <Text>This action will delete the record permanently.</Text>
 </PopoverContent>
-</Popover>`,children:(0,t.jsx)(n.p,{children:"Use a Tooltip instead — it opens on hover, not click, and is lighter weight for text-only\ncontent."})})]}),"\n",(0,t.jsxs)(s,{children:[(0,t.jsx)(o,{title:"Pass a single focusable element as the trigger",code:`<Popover>
+</Popover>`,children:(0,t.jsx)(n.p,{children:"Use a Tooltip instead — it opens on hover, not click, and is lighter weight for text-only\ncontent."})})]}),"\n",(0,t.jsxs)(s,{children:[(0,t.jsx)(o,{preview:!1,title:"Pass a single focusable element as the trigger",code:`<Popover>
 <PopoverTrigger>
   <Button>Open</Button>
 </PopoverTrigger>
 <PopoverContent>{content}</PopoverContent>
-</Popover>`,children:(0,t.jsx)(n.p,{children:"The trigger must forward refs — any ox0 Button or IconButton works."})}),(0,t.jsx)(i,{title:"Wrap the trigger in a non-forwarding div",code:`<Popover>
+</Popover>`,children:(0,t.jsx)(n.p,{children:"The trigger must forward refs — any ox0 Button or IconButton works."})}),(0,t.jsx)(i,{preview:!1,title:"Wrap the trigger in a non-forwarding div",code:`<Popover>
 <PopoverTrigger>
   <div>
     <Button>Open</Button>
